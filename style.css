@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--hsl--Grey900);
+  font-family: "Inter";
+  font-size: 14px;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: var(--hsl--White);
+  margin: 1rem 0 -0.3rem 0;
+  font-weight: 600;
+}
+p {
+  color: var(--hsl--Green);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.card-container {
+  border-radius: 12px;
+  background-color: var(--hsl--Grey800);
+  width: 85%;
+  margin: 0;
+  max-height: 522px;
+  max-width: 350px;
+  padding: 1rem;
+  text-align: center;
+}
+.description {
+  color: var(--hsl--White);
+  margin: 1rem;
+  font-size: 12px;
+}
+.link {
+  background-color: var(--hsl--Grey700);
+  padding: 0.7rem 0.5rem;
+  margin: 1rem;
+  border-radius: 6px;
+  color: var(--hsl--White);
+  font-weight: 700;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* AVATAR */
+
+.avatar {
+  max-width: 100%;
+  width: 70px;
+  border-radius: 100%;
+  margin-top: 1rem;
+}
+
+/* COLORS */
+
+:root {
+  --hsl--Green: hsl(75, 94%, 57%);
+  --hsl--White: hsl(0, 0%, 100%);
+  --hsl--Grey700: hsl(0, 0%, 20%);
+  --hsl--Grey800: hsl(0, 0%, 12%);
+  --hsl--Grey900: hsl(0, 0%, 8%);
+}
+
+/* ATTRIBUITION STYLES*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--hsl--White);
+  padding: 1rem;
+}
+.attribution a {
+  color: var(--hsl--Green);
+}
